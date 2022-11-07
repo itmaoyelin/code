@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>二维码</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+	<div class="h5">
+		<div class="h_box">
+			<!-- <img src="./img/H.png" width="100" height="100" alt=""> -->
+			<section>
+				<p>ITMAO 研 究 中 心</p>
+				<p>用 代 码 将 梦 想 实 现</p>
+			</section>
+
+		</div>
+	</div>
+	<!--banner start-->
+	<div class="banner">
+		<div class="b_box">
+
+			<!--b_info start-->
+			<div class="b_info">
+				<p>
+					<span>姓名：</span>
+					<input type="text" class="b_txt" id="name" />
+				</p>
+				<p>
+					<span>公司：</span>
+					<input type="text" class="b_txt" id="company" />
+				</p>
+				<p>
+					<span>职务：</span>
+					<input type="text" class="b_txt" id="title" />
+				</p>
+				<p>
+					<span>地址：</span>
+					<input type="text" class="b_txt" id="address" />
+				</p>
+				<p>
+					<span>手机：</span>
+					<input type="text" class="b_txt" id="mobile" />
+				</p>
+				<p>
+					<span>邮箱：</span>
+					<input type="text" class="b_txt" id="email" />
+				</p>
+				<p>
+					<span>网址：</span>
+					<input type="text" class="b_txt" id="web" />
+				</p>
+				<p>
+					<span>备注：</span>
+					<input type="text" class="b_txt" id="desc" />
+				</p>
+
+				<p class="b_login">
+					<a href="javascript:;" id="b_btn">生成通讯录二维码</a>
+				</p>
+
+			</div>
+			<!--end b_info-->
+
+			<!--b_qrcode start-->
+			<div class="b_qrcode" id="qrcode">
+				<p>左侧输入内容<br />
+					点击生成二维码</p>
+			</div>
+			<!--end b_qrcode-->
+
+		</div>
+	</div>
+	<!--end banner-->
+	<script src="./js/qrcode.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>

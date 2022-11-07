@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"  width="150" height="150"></canvas>
+    <script>
+      let ctx  = document.getElementById('canvas').getContext('2d');
+      ctx.beginPath();
+      ctx.fillStyle = "#fff"
+      ctx.arc(75, 75, 75, 0, Math.PI * 2, true); // 绘制
+      ctx.moveTo(40,30);
+      ctx.lineTo(50, 30);
+      ctx.lineTo(50,70);
+      ctx.lineTo(90,70);
+      ctx.lineTo(90,30);
+      ctx.lineTo(100,30);
+      ctx.lineTo(100,120);
+      ctx.lineTo(90,120);
+      ctx.lineTo(90,80);
+      ctx.lineTo(50,80);
+      ctx.lineTo(50,120);
+      ctx.lineTo(40,120);
+      ctx.fill();
+    </script>
+  </body>
+</html>

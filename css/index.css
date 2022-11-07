@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #666;
+  background: url("../img/bg.jpg") top center;
+  background-size: cover;
+}
+.h5 {
+  width: 100%;
+}
+
+.h5 .h_box {
+  margin: 100px auto 0px;
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.h5 .h_box section{
+  font-size: 40px;
+  margin: 10px;
+  color: #fff;
+}
+.h5 .h_box section p:nth-of-type(2){
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+
+
+/*banner start*/
+.banner {
+  width: 100%;
+}
+.banner .b_box {
+  width: 1000px;
+  height: 320px;
+  position: relative;
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+.banner .b_box .b_info {
+  width: 680px;
+  height: 310px;
+  position: absolute;
+  bottom: 0px;
+  left: 56px;
+}
+.banner .b_box .b_info p {
+  width: 260px;
+  height: 40px;
+  border-radius: 3px;
+  float: left;
+  margin: 15px 45px 0 0;
+}
+.banner .b_box .b_info p span {
+  width: 50px;
+  height: 40px;
+  display: inline-block;
+  line-height: 38px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px 0 0 3px;
+}
+.banner .b_box .b_info p .b_txt {
+  width: 180px;
+  height: 28px;
+  border: 0;
+  margin-top: 5px;
+  line-height: 28px;
+  padding-left: 10px;
+  outline: none;
+  color: #000;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.banner .b_box .b_info .b_login {
+  width: 445px;
+  height: 40px;
+  background: none;
+  margin-top: 25px;
+  padding-left: 70px;
+}
+.banner .b_box .b_info .b_login a {
+  width: 445px;
+  height: 40px;
+  display: block;
+  background: #44b549;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.banner .b_box .b_info .b_login a:hover {
+  background: #3c9d41;
+}
+.banner .b_box .b_qrcode {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+.banner .b_box .b_qrcode p {
+  padding-top: 80px;
+}
+/*end banner*/

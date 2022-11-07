@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none;
+}
+
+body {
+  background-color: #d8e7fa;
+}
+#wrap {
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid gray;
+  height: 480px;
+}
+
+#magnify {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.simg .mov {
+  width: 150px;
+  height: 149px;
+  background: url("./images/move.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: move;
+  display: none;
+}
+
+#magnify .bigimg {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 400px;
+  bottom: 0;
+  overflow: hidden;
+  display: none;
+}
+
+#magnify .bigimg img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.series {
+  width: 400px;
+  height: 55px;
+  position: relative;
+}
+
+.series li {
+  float: left;
+  height: 50px;
+  margin: 0px 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.series li.hover {
+  border: 2px solid red;
+}
